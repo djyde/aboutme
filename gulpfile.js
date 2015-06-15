@@ -19,3 +19,6 @@ gulp.task('scss',function(){
     .pipe(scss())
     .pipe(gulp.dest('src/css'))
 })
+
+gulp.watch('src/scss/*.scss',['scss']);
+gulp.watch('src/jade/*.jade',['jade']);
