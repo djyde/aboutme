@@ -21,3 +21,8 @@ body {
     margin-bottom: 24px; }
   #about .content .text {
     font-size: 1.2em; }
+
+.section {
+  width: 100%;
+  height: 100%;
+  position: fixed; }
