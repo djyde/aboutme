@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Karla,'Hiragino Sans GB','Microsoft YaHei',微软雅黑,STHeiti,'WenQuanYi Micro Hei',Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+#about {
+  width: 100%;
+  min-height: 512px;
+  background-color: #cf4646;
+  text-align: center;
+  padding-top: 128px;
+  box-sizing: border-box;
+  color: #fff; }
+  #about .content .avatar img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 24px; }
+  #about .content .text {
+    font-size: 1.2em; }
